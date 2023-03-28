@@ -1,0 +1,78 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.panels{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.panel{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    flex: 1;
+    transition: flex .8s ease-in-out;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    
+}
+
+.panel:hover{
+    flex:4
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.lion{
+    background-image: url("../img/banane.jfif");
+
+}
+
+.hands{
+    background-image: url("../img/lettre\ a.png");
+
+}
+
+.eye{
+    background-image: url("../img/supra\ MK4.jpg");
+
+}
+
+.road{
+    background-image: url("../img/mc\ squid.jpg");
+
+}
+.titreJeu{
+color: white;
+font-size:2.5em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+opacity: 0%;
+transition: opacity 1s;
+}
+.mesCartes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
