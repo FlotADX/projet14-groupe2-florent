@@ -3,6 +3,10 @@ html,body{
     padding: 0;
 }
 
+.collapse\ navbar-collapse{
+    color: white;
+}
+
 .nav-item{
     display: flex;
     justify-content: space-around;
